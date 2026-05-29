@@ -77,4 +77,4 @@ jobs:
 
       - name: Simular deploy
         run: |
-          echo "Deploy realizado com sucesso"
+          echo "Deploy realizado com sucesso" 

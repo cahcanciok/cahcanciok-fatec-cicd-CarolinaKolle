@@ -18,6 +18,10 @@ permissions:
   security-events: write
 
 jobs:
+
+  # =========================================
+  # JOB 1 — ANÁLISE DE SEGURANÇA COM CODEQL
+  # =========================================
   analyze:
     name: Analyze Security
     runs-on: ubuntu-latest

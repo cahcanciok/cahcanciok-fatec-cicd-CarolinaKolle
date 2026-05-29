@@ -15,7 +15,7 @@ jobs:
   # JOB 1 — ANÁLISE DE SEGURANÇA
   # =========================================
   codeql-analysis:
-    name: 🔒 Análise de Segurança
+    name:  Análise de Segurança
     runs-on: ubuntu-latest
 
     permissions:
@@ -42,7 +42,7 @@ jobs:
   # JOB 2 — TESTES AUTOMATIZADOS
   # =========================================
   tests:
-    name: 🧪 Testes Automatizados
+    name:  Testes Automatizados
     runs-on: ubuntu-latest
     needs: codeql-analysis
 
@@ -67,7 +67,7 @@ jobs:
   # JOB 3 — DEPLOY STAGE
   # =========================================
   deploy-stage:
-    name: 🚀 Deploy para Stage
+    name:  Deploy para Stage
     runs-on: ubuntu-latest
     needs: [codeql-analysis, tests]
 

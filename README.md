@@ -49,16 +49,22 @@ Abaixo estão os prints que comprovam o funcionamento da pipeline nos três cen�
 🟢 Teste 1 — Pipeline com código seguro
 Pipeline rodando normalmente, sem vulnerabilidades e com todos os testes passando.
 
-image
+<img width="1459" height="510" alt="image" src="https://github.com/user-attachments/assets/2f774d0c-3bc1-42c8-80ff-2d0642b3a11c" />
+
 🔴 Teste 2 — Pipeline com SQL Injection detectado pelo CodeQL
 Aqui eu adicionei um código vulnerável de propósito.
 O CodeQL identificou o problema e bloqueou a pipeline imediatamente.
 
-image
-🟢 Teste 3 — Pipeline corrigida e funcionando
-Após corrigir a vulnerabilidade, a pipeline voltou a rodar com sucesso.
+<img width="1459" height="368" alt="image" src="https://github.com/user-attachments/assets/641e41b3-daec-4281-a768-4a2d3467df12" />
 
-image image
+
+🟢 Teste 3 — Pipeline com erro e funcionando
+Após corrigir a vulnerabilidade, a pipeline voltou a rodar com sucesso.
+<img width="1459" height="481" alt="image" src="https://github.com/user-attachments/assets/f5a048b8-c061-4a3a-8813-e0576cfcfd70" />
+
+<img width="1459" height="368" alt="image" src="https://github.com/user-attachments/assets/4a01782d-8bd0-4e6f-bff8-1ead07872432" />
+
+
 📦 Como rodar o projeto localmente
 Se quiser testar tudo no seu computador:
 

@@ -1,4 +1,4 @@
-import pytest
+import tests
 from main import saudacao, calcular_media
 
 
